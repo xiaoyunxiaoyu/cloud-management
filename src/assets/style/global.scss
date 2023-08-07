@@ -1,0 +1,11 @@
+$color: #fcf;
+body {
+  background-color: $color;
+  // 禁止用户选中文字
+  user-select: none;
+}
+
+img {
+  // 图片禁止拖动
+  -webkit-user-drag: none;
+}
