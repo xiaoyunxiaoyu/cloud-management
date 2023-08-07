@@ -33,7 +33,7 @@ const items: MenuItem[] = [
     getItem('about', '/about', <PieChartOutlined />),
     getItem('news', '/news', <DesktopOutlined />),
     getItem('User', 'User', <UserOutlined />, [
-        getItem('home', '/home'),
+        getItem('Ami', '3'),
         getItem('Bill', '4'),
         getItem('Alex', '5'),
     ]),

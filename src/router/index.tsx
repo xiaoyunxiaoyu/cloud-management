@@ -5,7 +5,6 @@ import {lazy} from "react";
 // import News from "@/components/News.tsx";
 const About = lazy(()=> import("@/components/About"))
 const News = lazy(()=> import("@/components/News"))
-const Login = lazy(()=> import("@/components/Login"))
 
 
 const router = [
@@ -28,9 +27,5 @@ const router = [
             },
         ]
     },
-    {
-        path: "login",
-        element: <Login></Login>
-    }
 ]
 export default router;
